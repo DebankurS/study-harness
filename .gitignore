@@ -1,0 +1,3 @@
+# Your progress lives in data/ and is never committed
+data/
+.DS_Store

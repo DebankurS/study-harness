@@ -1,0 +1,15 @@
+study-harness
+
+Licensed under the GNU Affero General Public License v3.0 (see LICENSE).
+
+This project adapts material from LearnHarness
+(https://github.com/amosblomqvist/learnharness), which is also licensed under
+AGPL-3.0. The adapted parts are portions of playbooks/probe.md,
+playbooks/drill.md and docs/method.md. They restate, and in places closely
+follow, LearnHarness's prober and teacher prompts and its
+docs/teaching-methodology.md.
+
+Modifications: the material was reorganised and extended for learning any
+subject with any coding agent (agent-neutral playbooks, a data/ folder for
+progress, and track creation with or without an official source). Modified
+from November 2026.
