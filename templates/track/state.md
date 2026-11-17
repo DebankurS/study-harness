@@ -1,5 +1,5 @@
 # {{TRACK NAME}} — state
-<!-- HOT FILE. Keep under 40 lines. Rewritten at the end of every session. -->
+<!-- HOT FILE. Keep under 40 lines. Rewritten at the end of every session. scripts/status.sh reads the line below "## Readiness verdict" and "## Next action", so keep those two headings exactly and put their content on the next line. -->
 
 Updated: {{YYYY-MM-DD}} · Target date: ASAP (default; set a date only if the learner gives one) · Syllabus: {{source / version}}
 

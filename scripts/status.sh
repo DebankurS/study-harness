@@ -1,6 +1,7 @@
 #!/bin/sh
 # Prints each track's readiness verdict and next action. Read-only. Works with any agent.
 # Claude Code runs it from a SessionStart hook; other agents are told to run it in AGENTS.md.
+# It reads the line below "## Readiness verdict" and "## Next action" in each state.md, so those headings must stay.
 cd "$(dirname "$0")/.." || exit 0
 echo "Study harness: where you left off (from data/*/state.md)"
 found=0

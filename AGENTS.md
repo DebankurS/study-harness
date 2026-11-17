@@ -23,6 +23,7 @@ At the start of a session run `sh scripts/status.sh` and follow its reminder.
 ```
 data/<track>/
   state.md        HOT. <= 40 lines. Read first, rewritten at session end. Next action, drill queue, readiness.
+                  Keep the headings `## Readiness verdict` and `## Next action`: scripts/status.sh reads the line below each.
   guidelines.md   Target, full-assessment length, question styles, pacing, traps. Small and rarely changes.
   syllabus.md     Objectives with stable IDs (e.g. 2.3) and area weights, and their source. Read by area slice only.
   ledger.md       One table row per syllabus ID: status, demonstrated layer, calibration, misconceptions, confusables.
